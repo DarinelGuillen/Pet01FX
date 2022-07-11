@@ -1,5 +1,6 @@
 package com.petmaps.aplication.controllers;
 
+import com.petmaps.aplication.HelloApplication;
 import com.petmaps.aplication.models.ValidarUser;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -25,11 +26,12 @@ public class LoginController {
     void btnIniciaOnMouseClicked(MouseEvent event) {
         ValidarUser user = new ValidarUser();
         if(user.autenticarUsers(txtUsername.getText(), txtPassword.getText())){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            HelloApplication.setFXML("First-view", "Home - apĺication");
+            /*Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText(null);
             alert.setTitle("Login- Info");
             alert.setContentText("Bienvenido al sistema");
-            alert.showAndWait();
+            alert.showAndWait();*/
         }else{
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
