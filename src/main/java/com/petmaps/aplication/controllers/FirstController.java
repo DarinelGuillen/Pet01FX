@@ -17,8 +17,6 @@ public class FirstController {
     @FXML
     private Button btnMaps;
 
-    @FXML
-    private Button btnSalir;
 
     @FXML
     private Button btnServicios;
@@ -30,16 +28,13 @@ public class FirstController {
     private Button btnUneteAs;
 
     @FXML
-    private Button btnggggg;
-
-    @FXML
     void btnInicioOnMouseClicked(MouseEvent event) {
 
     }
 
     @FXML
     void btnMapsOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("Servicios-view", "maps");
+        HelloApplication.setFXML("maps-view", "vista de mapas");
 
     }
 
@@ -50,18 +45,12 @@ public class FirstController {
 
     @FXML
     void btnServiciosOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("Servicios-view", "maps");
     }
 
     @FXML
     void btnUneteAsOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("user-view", "Change user - controll");
-
-    }
-
-    @FXML
-    void btngggggOnMauseClicked(MouseEvent event) {
-
     }
 
 }

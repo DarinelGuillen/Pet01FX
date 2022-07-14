@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane fx:id="btnSalir" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.RefugioController">
    <children>
       <TextField fx:id="txtNombreRefugio" layoutX="421.0" layoutY="160.0" prefHeight="26.0" prefWidth="310.0" />

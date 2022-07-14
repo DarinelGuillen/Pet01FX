@@ -7,6 +7,7 @@ public class ValidarUser {
     public ValidarUser(){
         users.add(new UserO("Darinel","Darin", "1212"));
         users.add(new UserO("Ali López ","alilopez", "1234"));
+        users.add(new UserO("Admin", "Admin", "Admin"));
         /*users.add(new UserO("Yazmín","Yazz", "1414"));
         users.add(new UserO("Manuel","Darin", "1111"));
         users.add(new UserO("Escobar","Darin", "1515"));*/
