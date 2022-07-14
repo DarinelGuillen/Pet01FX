@@ -29,6 +29,6 @@
             <Font size="26.0" />
          </font>
       </Label>
-      <Button fx:id="btnggggg" layoutX="423.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#btngggggOnMauseClicked" text="ggggg" />
+      <Button fx:id="btnSalir" layoutX="859.0" layoutY="960.0" mnemonicParsing="false" text="Salir " />
    </children>
 </AnchorPane>
