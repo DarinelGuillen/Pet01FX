@@ -35,6 +35,7 @@ public class HelloApplication extends Application {
     //com.petmaps.aplication.controllers.MapsController
     //
     //
+    //
     public static Parent loadFXML(String nameView){
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(nameView+".fxml"));
         try {
