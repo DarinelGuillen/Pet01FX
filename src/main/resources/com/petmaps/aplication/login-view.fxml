@@ -8,20 +8,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #FFFEFA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #F7E7CE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.LoginController">
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@assets/img/Petmapsicono.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="111.0" layoutY="220.0" text="Username" textFill="#a84343">
+      <Label layoutX="124.0" layoutY="217.0" text="Usuario" textFill="#a84343">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
       <TextField fx:id="txtUsername" layoutX="20.0" layoutY="250.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 20;" />
-      <Label layoutX="113.0" layoutY="288.0" text="Password" textFill="#a84343">
+      <Label layoutX="113.0" layoutY="288.0" text="Contraseña" textFill="#a84343">
          <font>
             <Font size="16.0" />
          </font>
@@ -30,5 +25,15 @@
       <Button fx:id="btnIniciar" layoutX="21.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#btnIniciaOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #9BF6FF; -fx-background-radius: 20;" text="Iniciar sesión " textFill="#3e3c3c" />
       <Button fx:id="btnSalir" layoutX="21.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#btnSAlirOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #9BF6FF; -fx-background-radius: 20;" text="Salir" textFill="#3e3c3c" />
       <Button fx:id="btnIniciar1" layoutX="21.0" layoutY="415.0" mnemonicParsing="false" onMouseClicked="#btnIniciaOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #9BF6FF; -fx-background-radius: 20;" text="Registrar Usuario" textFill="#3e3c3c" />
+      <Label alignment="CENTER" layoutX="72.0" layoutY="142.0" prefHeight="74.0" prefWidth="162.0" text="PetMaps " textFill="#cd4242" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB" size="41.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="107.0" fitWidth="130.0" layoutX="97.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/PetLogo%20.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

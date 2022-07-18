@@ -21,8 +21,6 @@
       </ImageView>
       <Button fx:id="btnMaps" layoutX="817.0" layoutY="18.0" mnemonicParsing="false" onMouseClicked="#btnMapsOnMouseClicked" style="-fx-background-radius: 20; -fx-background-color: #B0C4DE;" text="Maps" textFill="#141414" />
       <Button fx:id="btnServicios" layoutX="740.0" layoutY="17.0" mnemonicParsing="false" onMouseClicked="#btnServiciosOnMouseClicked" style="-fx-background-color: #F0EAD6; -fx-background-radius: 20;" text="Servicios" />
-      <Button fx:id="btnSobreNosotros" layoutX="668.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#btnNosotrosOnMouseClicked" style="-fx-background-radius: 20; -fx-background-color: #ff0000;" text="Nosotros" />
-      <Button fx:id="btnInicio" layoutX="612.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#btnInicioOnMouseClicked" style="-fx-background-radius: 20; -fx-background-color: #FFDB58;" text="Inicio " />
       <Label layoutX="55.0" layoutY="16.0" text="PetMaps" textFill="#40cdb1">
          <font>
             <Font size="26.0" />
